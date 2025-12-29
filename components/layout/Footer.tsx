@@ -43,8 +43,7 @@ export function Footer() {
               <span className="font-bold text-2xl">Vinay Yadav </span>
             </div>
             <p className="text-muted-foreground leading-relaxed max-w-md">
-              Backend developer and DevOps engineer passionate about building Dotfiles ,Automation 
-            , and sharing knowledge through writing and debugging code.
+              Backend developer and DevOps engineer passionate about building Dotfiles,Automation.
             </p>
           </div>
 
