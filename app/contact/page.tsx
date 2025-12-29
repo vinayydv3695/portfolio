@@ -19,31 +19,31 @@ import { useState } from "react";
 const socialLinks = [
   {
     name: "GitHub",
-    href: "https://github.com/vasujain275",
+    href: "https://github.com/vinayydv3695",
     icon: Github,
     description: "Check out my projects and contributions",
   },
   {
     name: "LinkedIn",
-    href: "https://linkedin.com/in/vasujain275",
+    href: "https://www.linkedin.com/in/vinay-kumar-69bb35350/",
     icon: Linkedin,
     description: "Connect with me professionally",
   },
   {
     name: "Twitter",
-    href: "https://twitter.com/vasujain275",
+    href: "https://x.com/zurasan0",
     icon: Twitter,
     description: "Follow me for tech updates and thoughts",
   },
   {
     name: "Email",
-    href: "mailto:vasujain275@gmail.com",
+    href: "mailto:vinayydv343@gmail.com",
     icon: Mail,
     description: "Send me a direct message",
   },
   {
     name: "Website",
-    href: "https://vasujain.me",
+    href: "https://vinayydv.me",
     icon: Globe,
     description: "Visit my personal website",
   },
@@ -71,9 +71,9 @@ export default function ContactPage() {
       formData.subject || "Contact from Portfolio"
     );
     const mailtoBody = encodeURIComponent(
-      `Hi Vasu,\n\n${formData.message}\n\n---\nFrom: ${formData.name}\nEmail: ${formData.email}`
+      `Hi Vinay,\n\n${formData.message}\n\n---\nFrom: ${formData.name}\nEmail: ${formData.email}`
     );
-    const mailtoLink = `mailto:vasujain275@gmail.com?subject=${mailtoSubject}&body=${mailtoBody}`;
+    const mailtoLink = `mailto:vinayydv343@gmail.com?subject=${mailtoSubject}&body=${mailtoBody}`;
 
     // Open the mailto link
     window.location.href = mailtoLink;
@@ -223,10 +223,10 @@ export default function ContactPage() {
               <p className="text-sm text-muted-foreground text-center">
                 Or email me directly at{" "}
                 <a
-                  href="mailto:vasujain275@gmail.com"
+                  href="mailto:vinayydv343@gmail.com"
                   className="text-primary hover:underline font-medium"
                 >
-                  vasujain275@gmail.com
+                  vinayydv343@gmail.com
                 </a>
               </p>
             </form>
@@ -257,7 +257,7 @@ export default function ContactPage() {
                   <div>
                     <div className="font-medium text-lg">Email</div>
                     <div className="text-muted-foreground">
-                      vasujain275@gmail.com
+                      vinayydv343@gmail.com
                     </div>
                   </div>
                 </div>
@@ -265,7 +265,7 @@ export default function ContactPage() {
                   <Globe className="h-6 w-6 text-primary" />
                   <div>
                     <div className="font-medium text-lg">Website</div>
-                    <div className="text-muted-foreground">vasujain.me</div>
+                    <div className="text-muted-foreground">vinayydv.me</div>
                   </div>
                 </div>
               </div>

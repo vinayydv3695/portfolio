@@ -5,21 +5,20 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import {
     ArrowLeft,
-    ArrowRightLeft,
-    BookOpen,
     CheckCircle2,
+    Code,
     Database,
-    FileText,
     Github,
+    Keyboard,
     Layout,
-    Lock,
-    Server,
-    Shield,
-    Terminal
+    Monitor,
+    Palette,
+    Terminal,
+    Zap
 } from "lucide-react";
 import Link from "next/link";
 
-export default function ShelfwisePage() {
+export default function HollowDotsPage() {
   return (
     <div className="container max-w-5xl mx-auto px-4 py-20">
       <Link href="/projects">
@@ -35,14 +34,14 @@ export default function ShelfwisePage() {
           <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-6">
             <div className="space-y-4">
               <h1 className="text-4xl lg:text-6xl font-bold bg-gradient-to-r from-primary to-purple-400 bg-clip-text text-transparent">
-                ShelfWise
+                HollowDots
               </h1>
               <p className="text-2xl text-muted-foreground font-light">
-                Modern Library Management System
+                Hollow Knight Inspired Hyprland Dotfiles
               </p>
             </div>
             <div className="flex gap-4">
-              <a href="https://github.com/vasujain275/shelfwise" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/vinayydv3695/HollowDots" target="_blank" rel="noopener noreferrer">
                 <Button variant="outline" size="lg" className="gap-2">
                   <Github className="h-5 w-5" />
                   View Code
@@ -52,7 +51,7 @@ export default function ShelfwisePage() {
           </div>
 
           <div className="flex flex-wrap gap-3">
-            {["Spring Boot 3.3", "React 19", "MySQL 8", "Docker", "TypeScript", "Java 21", "Spring Security 6", "Tailwind CSS"].map((tech) => (
+            {["Hyprland", "Waybar", "Rofi", "Neovim", "Kitty", "Ansible", "Lua", "CSS", "Bash"].map((tech) => (
               <Badge key={tech} variant="secondary" className="text-sm px-3 py-1">
                 {tech}
               </Badge>
@@ -63,10 +62,10 @@ export default function ShelfwisePage() {
         {/* Overview */}
         <div className="prose prose-invert max-w-none">
           <p className="text-xl leading-relaxed text-muted-foreground">
-            ShelfWise is a full-featured, production-ready library management system designed specifically for
-            <span className="text-primary font-semibold"> offline-first operations</span>.
-            Built with React and Spring Boot, it provides a seamless experience for managing books, members,
-            and transactions with role-based access control and comprehensive reporting capabilities.
+            A complete and beautiful Hyprland dotfiles setup inspired by
+            <span className="text-primary font-semibold"> Hollow Knight</span>.
+            Features a cohesive design across all applications including Waybar, Rofi, Neovim, Kitty, and more.
+            Automated deployment using Ansible playbooks makes setup effortless on Arch Linux.
           </p>
         </div>
 
@@ -75,27 +74,27 @@ export default function ShelfwisePage() {
           <Card className="bg-card border-border">
             <CardHeader>
               <CardTitle className="flex items-center gap-3 text-xl">
-                <Shield className="h-6 w-6 text-primary" />
-                Authentication & Security
+                <Palette className="h-6 w-6 text-primary" />
+                Beautiful & Consistent Design
               </CardTitle>
             </CardHeader>
             <CardContent>
               <ul className="space-y-3 text-muted-foreground">
                 <li className="flex items-start gap-2">
                   <CheckCircle2 className="h-5 w-5 text-green-500 shrink-0 mt-0.5" />
-                  JWT-based Auth with HttpOnly cookies
+                  Hollow Knight inspired theme
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle2 className="h-5 w-5 text-green-500 shrink-0 mt-0.5" />
-                  RBAC (Member, Admin, Super Admin)
+                  Rose Pine color scheme
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle2 className="h-5 w-5 text-green-500 shrink-0 mt-0.5" />
-                  Secure Spring Security implementation
+                  Cohesive design across all apps
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle2 className="h-5 w-5 text-green-500 shrink-0 mt-0.5" />
-                  Refresh Token mechanism
+                  Custom icons and fonts
                 </li>
               </ul>
             </CardContent>
@@ -104,27 +103,27 @@ export default function ShelfwisePage() {
           <Card className="bg-card border-border">
             <CardHeader>
               <CardTitle className="flex items-center gap-3 text-xl">
-                <BookOpen className="h-6 w-6 text-primary" />
-                Book Management
+                <Zap className="h-6 w-6 text-primary" />
+                Automated Setup
               </CardTitle>
             </CardHeader>
             <CardContent>
               <ul className="space-y-3 text-muted-foreground">
                 <li className="flex items-start gap-2">
                   <CheckCircle2 className="h-5 w-5 text-green-500 shrink-0 mt-0.5" />
-                  Complete CRUD operations
+                  Ansible playbooks for deployment
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle2 className="h-5 w-5 text-green-500 shrink-0 mt-0.5" />
-                  Bulk Book Upload via JSON
+                  One-command installation
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle2 className="h-5 w-5 text-green-500 shrink-0 mt-0.5" />
-                  Advanced Search with pagination
+                  Package management automation
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle2 className="h-5 w-5 text-green-500 shrink-0 mt-0.5" />
-                  Custom Barcode Generation
+                  Easy updates and synchronization
                 </li>
               </ul>
             </CardContent>
@@ -133,27 +132,27 @@ export default function ShelfwisePage() {
           <Card className="bg-card border-border">
             <CardHeader>
               <CardTitle className="flex items-center gap-3 text-xl">
-                <ArrowRightLeft className="h-6 w-6 text-primary" />
-                Transaction Management
+                <Keyboard className="h-6 w-6 text-primary" />
+                Efficient Keybindings
               </CardTitle>
             </CardHeader>
             <CardContent>
               <ul className="space-y-3 text-muted-foreground">
                 <li className="flex items-start gap-2">
                   <CheckCircle2 className="h-5 w-5 text-green-500 shrink-0 mt-0.5" />
-                  Issue, Return, and Renew workflows
+                  Vim-like navigation (j/k movement)
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle2 className="h-5 w-5 text-green-500 shrink-0 mt-0.5" />
-                  Automatic late fee calculation
+                  Super key as main modifier
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle2 className="h-5 w-5 text-green-500 shrink-0 mt-0.5" />
-                  Overdue transaction alerts
+                  Workspace management shortcuts
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle2 className="h-5 w-5 text-green-500 shrink-0 mt-0.5" />
-                  Transaction receipt generation
+                  Screenshot and clipboard tools
                 </li>
               </ul>
             </CardContent>
@@ -162,27 +161,27 @@ export default function ShelfwisePage() {
           <Card className="bg-card border-border">
             <CardHeader>
               <CardTitle className="flex items-center gap-3 text-xl">
-                <FileText className="h-6 w-6 text-primary" />
-                Reports & Export
+                <Monitor className="h-6 w-6 text-primary" />
+                Complete Desktop Environment
               </CardTitle>
             </CardHeader>
             <CardContent>
               <ul className="space-y-3 text-muted-foreground">
                 <li className="flex items-start gap-2">
                   <CheckCircle2 className="h-5 w-5 text-green-500 shrink-0 mt-0.5" />
-                  PDF Report Generation (Inventory, Users)
+                  Hyprland window manager
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle2 className="h-5 w-5 text-green-500 shrink-0 mt-0.5" />
-                  CSV Export/Import functionality
+                  Waybar status bar
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle2 className="h-5 w-5 text-green-500 shrink-0 mt-0.5" />
-                  Printable Barcode Sheets
+                  Rofi app launcher & switcher
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle2 className="h-5 w-5 text-green-500 shrink-0 mt-0.5" />
-                  Real-time Admin Dashboard
+                  Dunst notification daemon
                 </li>
               </ul>
             </CardContent>
@@ -196,24 +195,26 @@ export default function ShelfwisePage() {
           <div className="space-y-8">
             <div className="space-y-4">
               <h3 className="text-2xl font-semibold flex items-center gap-2">
-                <Lock className="h-6 w-6 text-primary" />
-                Secure Authentication Flow
+                <Code className="h-6 w-6 text-primary" />
+                Ansible Automation
               </h3>
               <p className="text-muted-foreground leading-relaxed">
-                The system employs a robust security model where the server validates credentials and generates JWT tokens.
-                Access and refresh tokens are stored in <strong>HttpOnly cookies</strong> to prevent XSS attacks.
-                The client automatically refreshes tokens when needed, ensuring a seamless user experience while maintaining high security.
+                The dotfiles leverage Ansible for complete automation. Three playbooks handle everything:
+                <strong> main.yml</strong> for full system setup, <strong>deploy.yml</strong> for dotfiles and packages,
+                and <strong>update.yml</strong> for keeping everything synchronized. This approach ensures reproducibility
+                and makes it easy to set up the same environment on multiple machines.
               </p>
             </div>
 
             <div className="space-y-4">
               <h3 className="text-2xl font-semibold flex items-center gap-2">
                 <Terminal className="h-6 w-6 text-primary" />
-                Barcode Sheet Generation
+                Developer Workflow
               </h3>
               <p className="text-muted-foreground leading-relaxed">
-                A sophisticated feature allowing admins to search and select books, choose from 18+ barcode standards
-                (CODE128, EAN13, etc.), customize layout dimensions, and generate printable PDF sheets directly from the browser.
+                The setup is optimized for development with Neovim as the primary editor, Kitty and Ghostty terminals,
+                Yazi file manager, and integrated clipboard history with cliphist. Theme and wallpaper switching is
+                built-in with dedicated keybindings for quick customization.
               </p>
             </div>
           </div>
@@ -221,49 +222,51 @@ export default function ShelfwisePage() {
 
         {/* Tech Stack Detail */}
         <div className="space-y-8">
-          <h2 className="text-3xl font-bold border-b border-border pb-4">Technical Architecture</h2>
+          <h2 className="text-3xl font-bold border-b border-border pb-4">Key Applications</h2>
 
           <div className="grid md:grid-cols-3 gap-8">
             <div className="space-y-4">
               <div className="flex items-center gap-2 text-xl font-semibold text-primary">
-                <Server className="h-5 w-5" />
-                Backend
+                <Layout className="h-5 w-5" />
+                Window Management
               </div>
               <ul className="space-y-2 text-sm text-muted-foreground">
-                <li>• Spring Boot 3.3.13</li>
-                <li>• Spring Security 6.x</li>
-                <li>• Spring Data JPA</li>
-                <li>• MySQL 8.x</li>
-                <li>• JWT (JJWT)</li>
-                <li>• MapStruct</li>
+                <li>• Hyprland (Wayland)</li>
+                <li>• Waybar</li>
+                <li>• Rofi (wayland fork)</li>
+                <li>• Dunst notifications</li>
+                <li>• Hyprlock & Swayidle</li>
+                <li>• Wlogout</li>
               </ul>
             </div>
 
             <div className="space-y-4">
               <div className="flex items-center gap-2 text-xl font-semibold text-primary">
-                <Layout className="h-5 w-5" />
-                Frontend
+                <Terminal className="h-5 w-5" />
+                Development Tools
               </div>
               <ul className="space-y-2 text-sm text-muted-foreground">
-                <li>• React 19</li>
-                <li>• TypeScript 5.8</li>
-                <li>• Tailwind CSS 4</li>
-                <li>• shadcn/ui</li>
-                <li>• TanStack Query</li>
-                <li>• Zustand</li>
+                <li>• Neovim</li>
+                <li>• Kitty Terminal</li>
+                <li>• Ghostty Terminal</li>
+                <li>• Yazi File Manager</li>
+                <li>• Fastfetch</li>
+                <li>• Git</li>
               </ul>
             </div>
 
             <div className="space-y-4">
               <div className="flex items-center gap-2 text-xl font-semibold text-primary">
                 <Database className="h-5 w-5" />
-                DevOps
+                System & Utilities
               </div>
               <ul className="space-y-2 text-sm text-muted-foreground">
-                <li>• Docker (Multi-arch)</li>
-                <li>• GitHub Actions CI/CD</li>
-                <li>• Maven & pnpm</li>
-                <li>• Docker Hub Registry</li>
+                <li>• Ansible</li>
+                <li>• Cliphist</li>
+                <li>• Playerctl</li>
+                <li>• Blueman</li>
+                <li>• NetworkManager</li>
+                <li>• Udiskie</li>
               </ul>
             </div>
           </div>
@@ -274,17 +277,42 @@ export default function ShelfwisePage() {
           <h2 className="text-3xl font-bold border-b border-border pb-4">Project Structure</h2>
           <div className="bg-card border border-border rounded-xl p-6 font-mono text-sm overflow-x-auto">
             <pre className="text-muted-foreground">
-{`shelfwise/
-├── api/                          # Spring Boot Backend
-│   ├── src/main/java/            # Controllers, Services, Models
-│   └── src/main/resources/       # Config, Static Assets
-├── web/                          # React Frontend
-│   ├── src/components/           # UI, Auth, Dashboard Components
-│   ├── src/lib/                  # Utilities
-│   └── src/store/                # Zustand State
-├── docker-compose.prod.yml       # Production Config
-└── Dockerfile                    # Multi-stage Build`}
+{`HollowDots/
+├── .config/                      # Application configs
+│   ├── hypr/                     # Hyprland config
+│   ├── waybar/                   # Status bar
+│   ├── rofi/                     # App launcher
+│   ├── nvim/                     # Neovim setup
+│   └── kitty/                    # Terminal config
+├── .zsh/                         # ZSH configuration
+├── Ansible/
+│   ├── playbooks/                # Automation scripts
+│   │   ├── main.yml              # Full setup
+│   │   ├── deploy.yml            # Deploy dotfiles
+│   │   └── update.yml            # Update system
+│   └── group_vars/               # Variables
+├── .local/share/themes/          # Custom themes
+└── screenshots/                  # Workflow demos`}
             </pre>
+          </div>
+        </div>
+
+        {/* Core Keybindings */}
+        <div className="space-y-6">
+          <h2 className="text-3xl font-bold border-b border-border pb-4">Core Keybindings</h2>
+          <div className="grid md:grid-cols-2 gap-4">
+            <div className="bg-card border border-border rounded-lg p-4 space-y-2">
+              <p className="font-mono text-sm"><span className="text-primary">Super + C</span> - Open Terminal</p>
+              <p className="font-mono text-sm"><span className="text-primary">Super + E</span> - File Manager</p>
+              <p className="font-mono text-sm"><span className="text-primary">Super + F</span> - Browser</p>
+              <p className="font-mono text-sm"><span className="text-primary">Super + A</span> - App Launcher</p>
+            </div>
+            <div className="bg-card border border-border rounded-lg p-4 space-y-2">
+              <p className="font-mono text-sm"><span className="text-primary">Super + Q</span> - Close Window</p>
+              <p className="font-mono text-sm"><span className="text-primary">Super + L</span> - Lock Screen</p>
+              <p className="font-mono text-sm"><span className="text-primary">Super + P</span> - Screenshot</p>
+              <p className="font-mono text-sm"><span className="text-primary">Super + V</span> - Clipboard</p>
+            </div>
           </div>
         </div>
       </div>

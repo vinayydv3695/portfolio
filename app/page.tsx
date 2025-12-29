@@ -10,13 +10,10 @@ export default function Home() {
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div className="space-y-8">
             <h2 className="text-3xl lg:text-4xl font-bold">
-              Backend Developer & DevOps Engineer
+              DevOps & Full-Stack Engineer
             </h2>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              I'm a CSE undergrad passionate about building robust backend
-              microservices, DevOps automation, and practical GenAI
-              applications. Currently working on secure, scalable systems and
-              exploring advanced AI orchestration patterns.
+              DevOps and Full-Stack Engineer focused on building, automating, and scaling modern applications. Proficient in AWS, GCP, Linux, CI/CD pipelines, Docker, Kubernetes, Terraform, Ansible.
             </p>
             <div className="grid grid-cols-2 gap-6">
               <div className="space-y-3">
@@ -28,19 +25,19 @@ export default function Home() {
               <div className="space-y-3">
                 <div className="font-semibold text-lg">DevOps</div>
                 <div className="text-muted-foreground leading-relaxed">
-                  Docker, Kubernetes, AWS, CI/CD, GitHub Actions
+                  Docker, Kubernetes, AWS, CI/CD, GitHub Actions, Terraform, GitOps
                 </div>
               </div>
               <div className="space-y-3">
-                <div className="font-semibold text-lg">AI/ML</div>
+                <div className="font-semibold text-lg">Linux</div>
                 <div className="text-muted-foreground leading-relaxed">
-                  LangChain, RAG, Vector DBs, Qdrant, LangGraph
+                  Arch, Debian, Ubuntu, Bash Scripting, Systemd, Networking
                 </div>
               </div>
               <div className="space-y-3">
                 <div className="font-semibold text-lg">Frontend</div>
                 <div className="text-muted-foreground leading-relaxed">
-                  React, TypeScript, shadcn/ui, Vite, Zustand
+                  React, TypeScript, Tailwind, Vite
                 </div>
               </div>
             </div>
@@ -54,7 +51,7 @@ export default function Home() {
                 <div className="w-3 h-3 rounded-full bg-green-500"></div>
               </div>
               <span className="text-sm text-muted-foreground font-mono">
-                vasu@backend:~
+                vinay@Arch:~
               </span>
             </div>
             <div className="space-y-4 font-mono text-sm">
@@ -63,11 +60,11 @@ export default function Home() {
                 <span>cat experience.txt</span>
               </div>
               <div className="text-secondary leading-relaxed pl-6">
-                • ShelfWise (Spring Boot + React)
+                • HollowDots (Ansible)
                 <br />
-                • Task Genie (AI Agent + Python)
+                • Keyarch (CLI typing test)
                 <br />
-                • Open Source: talawa-api, talawa-admin
+                • Telecord (Node.js)
                 <br />• CSE Undergrad (University)
               </div>
               <div className="flex items-center space-x-3">
@@ -75,9 +72,9 @@ export default function Home() {
                 <span>cat certifications.txt</span>
               </div>
               <div className="text-secondary leading-relaxed pl-6">
-                • AWS Cloud Practitioner (In Progress)
+                • Decoding DevOps (In Progress)
                 <br />
-                • AWS Developer Associate (In Progress)
+                • Full Stack Generative and Agentic AI (In Progress)
                 <br />
               </div>
             </div>

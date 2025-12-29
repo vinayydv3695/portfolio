@@ -30,8 +30,8 @@ export default function AboutPage() {
             <div className="relative">
               <div className="w-28 h-28 sm:w-36 sm:h-36 rounded-full overflow-hidden ring-4 ring-primary/20 shadow-xl">
                 <Image
-                  src="https://avatars.githubusercontent.com/u/69643310?v=4"
-                  alt="Vasu Jain"
+                  src="/vinay-profile.jpg"
+                  alt="Vinay Yadav"
                   width={144}
                   height={144}
                   className="w-full h-full object-cover"
@@ -47,9 +47,8 @@ export default function AboutPage() {
             About Me
           </h1>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            Backend developer and DevOps engineer passionate about building
-            robust microservices, AI applications, and sharing knowledge through
-            code and writing.
+            A DevOps & Full-Stack Engineer focused on building scalable, cloud-native applications.
+            I work with AWS, GCP, Linux, CI/CD, Docker, Kubernetes, Terraform, Ansible, and GitOps.
           </p>
         </div>
 
@@ -59,15 +58,11 @@ export default function AboutPage() {
             <h2 className="text-2xl sm:text-3xl font-bold">Background</h2>
             <div className="space-y-6">
               <p className="text-muted-foreground leading-relaxed text-lg">
-                I'm Vasu Jain, a highly motivated and self-driven CSE undergrad
-                from India. I specialize in building scalable backend systems,
-                automating infrastructure with DevOps tools, and creating
-                practical AI agents.
+                I'm Vinay, a Computer Science undergraduate from India, driven by a deep curiosity for how systems run at scale. 
+                My journey into DevOps grew from a love for Linux and backend systems into a focused passion for automation and deployment.
               </p>
               <p className="text-muted-foreground leading-relaxed text-lg">
-                Currently, I'm focused on mastering distributed systems and
-                exploring the intersection of software engineering and
-                generative AI.
+                Today, I work on building reliable, cloud-native pipelines and continuously sharpen my skills in DevOps and full-stack development.
               </p>
             </div>
 
@@ -80,23 +75,23 @@ export default function AboutPage() {
               <div className="flex items-center space-x-3 sm:space-x-4">
                 <Mail className="h-5 w-5 text-muted-foreground flex-shrink-0" />
                 <a
-                  href="mailto:vasujain275@gmail.com"
+                  href="mailto:vinayydv343@gmail.com"
                   className="text-base sm:text-lg hover:text-primary transition-colors focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 rounded"
-                  aria-label="Send email to vasujain275@gmail.com"
+                  aria-label="Send email to vinayydv343@gmail.com"
                 >
-                  vasujain275@gmail.com
+                  vinayydv343@gmail.com
                 </a>
               </div>
               <div className="flex items-center space-x-3 sm:space-x-4">
                 <Github className="h-5 w-5 text-muted-foreground flex-shrink-0" />
                 <a
-                  href="https://github.com/vasujain275"
+                  href="https://github.com/vinayydv3695"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-base sm:text-lg hover:text-primary transition-colors focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 rounded"
-                  aria-label="Visit Vasu Jain's GitHub profile (opens in new tab)"
+                  aria-label="Visit Vinay Yadav's GitHub profile (opens in new tab)"
                 >
-                  github.com/vasujain275
+                  github.com/vinayydv3695
                 </a>
               </div>
             </div>
@@ -107,28 +102,26 @@ export default function AboutPage() {
             <div className="space-y-4 sm:space-y-6">
               <div className="p-4 sm:p-6 bg-card border border-border rounded-xl hover:border-primary/50 transition-all duration-300 hover:shadow-lg">
                 <h3 className="font-semibold text-base sm:text-lg mb-2 sm:mb-3">
-                  Backend Engineering
+                  DevOps
                 </h3>
                 <p className="text-sm sm:text-base text-muted-foreground leading-relaxed">
-                  Designing offline-first systems and secure APIs using Spring
-                  Boot and Go.
+                  Automation, CI/CD pipelines, cloud infrastructure, and scalable deployments
                 </p>
               </div>
               <div className="p-4 sm:p-6 bg-card border border-border rounded-xl hover:border-primary/50 transition-all duration-300 hover:shadow-lg">
                 <h3 className="font-semibold text-base sm:text-lg mb-2 sm:mb-3">
-                  Agentic AI
+                  Generative AI
                 </h3>
                 <p className="text-sm sm:text-base text-muted-foreground leading-relaxed">
-                  Building stateful AI agents with LangGraph and custom
-                  tool-calling capabilities.
+                  Exploring AI-driven automation and intelligent system workflows
                 </p>
               </div>
               <div className="p-4 sm:p-6 bg-card border border-border rounded-xl hover:border-primary/50 transition-all duration-300 hover:shadow-lg">
                 <h3 className="font-semibold text-base sm:text-lg mb-2 sm:mb-3">
-                  Infrastructure as Code
+                  Computer Networking
                 </h3>
                 <p className="text-sm sm:text-base text-muted-foreground leading-relaxed">
-                  Managing deployments with Docker, Kubernetes, and NixOS.
+                  Understanding how systems communicate, scale, and stay reliable
                 </p>
               </div>
             </div>

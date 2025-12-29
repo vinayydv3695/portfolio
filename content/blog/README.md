@@ -42,7 +42,7 @@ coverImage: "/images/blog/cover.jpg"  # Optional
 | Field | Type | Default | Description |
 |-------|------|---------|-------------|
 | `featured` | boolean | `false` | Show in featured section |
-| `author` | string | `"Vasu Jain"` | Author name |
+| `author` | string | `"Vinay Yadav"` | Author name |
 | `published` | boolean | `true` | Set to `false` for drafts |
 | `coverImage` | string | none | Path to cover image |
 
@@ -110,47 +110,53 @@ The post will be visible during development (`pnpm dev`) but not in production b
 
 Tags are used for filtering and related posts. Recommended tags:
 
-- **Languages**: Python, Java, TypeScript, Go, Rust
-- **Frameworks**: FastAPI, Spring Boot, Django, Express
-- **Topics**: Backend, DevOps, Architecture, Security, Performance
-- **Tools**: Docker, Kubernetes, AWS, PostgreSQL, Redis
-- **Concepts**: Microservices, CI/CD, RAG, AI/ML
+- **Languages**: Python, JavaScript, TypeScript, Go, Rust, Shell
+- **Frameworks**: React, Next.js, FastAPI, Express
+- **Topics**: DevOps, Linux, Customization, Tutorial, Advanced
+- **Tools**: Docker, Kubernetes, Ansible, Terraform, Git
+- **Concepts**: CI/CD, Infrastructure, Automation, Arch Linux, Tiling Managers
 
 ## Example Post
 
 ```markdown
 ---
-title: "Getting Started with FastAPI"
-excerpt: "Learn how to build high-performance APIs with Python's fastest framework."
+title: "Getting Started with Hyprland"
+excerpt: "Learn how to set up and configure Hyprland, the beautiful Wayland compositor."
 date: "2024-01-20"
 tags:
-  - Python
-  - FastAPI
-  - Backend
+  - Linux
+  - Hyprland
+  - Customization
 featured: true
-author: "Vasu Jain"
+author: "Vinay Yadav"
 published: true
 ---
 
-FastAPI is a modern, fast web framework for building APIs with Python.
+Hyprland is a modern, dynamic tiling Wayland compositor with stunning animations.
 
 ## Installation
 
 \`\`\`bash
-pip install fastapi uvicorn
+yay -S hyprland-git
 \`\`\`
 
-## Your First Endpoint
+## Basic Configuration
 
-\`\`\`python
-from fastapi import FastAPI
+\`\`\`conf
+# ~/.config/hypr/hyprland.conf
+general {
+    gaps_in = 5
+    gaps_out = 10
+    border_size = 2
+}
 
-app = FastAPI()
-
-@app.get("/")
-def read_root():
-    return {"Hello": "World"}
+decoration {
+    rounding = 10
+    blur {
+        enabled = true
+    }
+}
 \`\`\`
 
-Run with: `uvicorn main:app --reload`
+Launch Hyprland and start customizing!
 ```

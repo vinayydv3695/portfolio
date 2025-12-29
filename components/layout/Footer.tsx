@@ -4,27 +4,27 @@ import { Github, Linkedin, Twitter, Mail, Globe } from "lucide-react";
 const socialLinks = [
   {
     name: "GitHub",
-    href: "https://github.com/vasujain275",
+    href: "https://github.com/vinayydv3695",
     icon: Github,
   },
   {
     name: "LinkedIn",
-    href: "https://linkedin.com/in/vasujain275",
+    href: "https://www.linkedin.com/in/vinay-kumar-69bb35350",
     icon: Linkedin,
   },
   {
     name: "Twitter",
-    href: "https://twitter.com/vasujain275",
+    href: "https://twitter.com/zurasan0",
     icon: Twitter,
   },
   {
     name: "Email",
-    href: "mailto:vasujain275@gmail.com",
+    href: "mailto:vinayydv343@gmail.com",
     icon: Mail,
   },
   {
     name: "Website",
-    href: "https://vasujain.me",
+    href: "https://vinayydv.me",
     icon: Globe,
   },
 ];
@@ -38,13 +38,13 @@ export function Footer() {
           <div className="space-y-6">
             <div className="flex items-center space-x-3">
               <div className="h-10 w-10 rounded-lg bg-primary flex items-center justify-center shadow-lg">
-                <span className="text-primary-foreground font-bold text-lg">VJ</span>
+                <span className="text-primary-foreground font-bold text-lg">VY</span>
               </div>
-              <span className="font-bold text-2xl">Vasu Jain</span>
+              <span className="font-bold text-2xl">Vinay Yadav </span>
             </div>
             <p className="text-muted-foreground leading-relaxed max-w-md">
-              Backend developer and DevOps engineer passionate about building robust microservices, 
-              AI applications, and sharing knowledge through code and writing.
+              Backend developer and DevOps engineer passionate about building Dotfiles ,Automation 
+            , and sharing knowledge through writing and debugging code.
             </p>
           </div>
 
@@ -91,7 +91,7 @@ export function Footer() {
         <div className="mt-12 pt-8 border-t">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <p className="text-sm text-muted-foreground">
-              © 2024 Vasu Jain. Built with Next.js, TypeScript, and Tailwind CSS.
+              © 2025 Vinay Yadav. Built with Next.js, TypeScript, and Tailwind CSS.
             </p>
             <div className="flex items-center space-x-4 text-sm text-muted-foreground">
               <span>Available for new opportunities</span>

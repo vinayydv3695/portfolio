@@ -62,8 +62,8 @@ export function Hero() {
                 <div className="relative flex-shrink-0">
                   <div className="w-24 h-24 sm:w-28 sm:h-28 lg:w-36 lg:h-36 rounded-full overflow-hidden ring-4 ring-primary/20 shadow-xl">
                     <Image
-                      src="https://avatars.githubusercontent.com/u/69643310?v=4"
-                      alt="Vasu Jain"
+                      src="/vinay-profile.jpg"
+                      alt="Vinay Yadav"
                       width={144}
                       height={144}
                       className="w-full h-full object-cover"
@@ -76,7 +76,7 @@ export function Hero() {
                 </div>
                 <div className="space-y-3 text-center sm:text-left">
                   <h1 className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-bold tracking-tight">
-                    Hi, I&apos;m <span className="text-primary">Vasu Jain</span>
+                    Hi, I&apos;m <span className="text-primary">Vinay Yadav</span>
                   </h1>
                   <div className="text-lg sm:text-xl lg:text-2xl text-muted-foreground">
                     I&apos;m a{" "}
@@ -88,10 +88,7 @@ export function Hero() {
               </div>
 
               <p className="text-lg lg:text-xl text-muted-foreground max-w-2xl leading-relaxed">
-                Passionate about building robust backend microservices, DevOps
-                automation, and practical GenAI applications. Currently working
-                on secure, scalable systems and exploring advanced AI
-                orchestration patterns.
+                Master DevOps and Full-Stack Engineer with expertise in cloud platforms (AWS, GCP), Linux, and modern CI/CD pipelines using Jenkins, GitLab CI, and GitHub Actions. Skilled in building  full-stack applications, containerizing services with Docker, orchestrating with Kubernetes, and managing infrastructure using Terraform, Ansible, and GitOps practices..
               </p>
             </div>
 
@@ -133,7 +130,7 @@ export function Hero() {
             {/* Social Links */}
             <div className="flex items-center justify-center sm:justify-start space-x-2 sm:space-x-4">
               <a
-                href="https://github.com/vasujain275"
+                href="https://github.com/vinayydv3695"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-primary transition-colors p-3 rounded-lg hover:bg-muted"
@@ -142,7 +139,7 @@ export function Hero() {
                 <Github className="h-5 w-5 sm:h-6 sm:w-6" />
               </a>
               <a
-                href="https://linkedin.com/in/vasujain275"
+                href="www.linkedin.com/in/vinay-kumar-69bb35350"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-primary transition-colors p-3 rounded-lg hover:bg-muted"
@@ -151,7 +148,7 @@ export function Hero() {
                 <Linkedin className="h-5 w-5 sm:h-6 sm:w-6" />
               </a>
               <a
-                href="mailto:vasujain275@gmail.com"
+                href="mailto:vinayydv343@gmail.com"
                 className="text-muted-foreground hover:text-primary transition-colors p-3 rounded-lg hover:bg-muted"
                 aria-label="Send me an email"
               >
@@ -170,7 +167,7 @@ export function Hero() {
                   <div className="w-2.5 h-2.5 sm:w-3 sm:h-3 rounded-full bg-green-500"></div>
                 </div>
                 <span className="text-xs sm:text-sm text-muted-foreground font-mono">
-                  vasu@backend:~
+                  vinay@Arch:~
                 </span>
               </div>
               <div className="space-y-2 sm:space-y-3 font-mono text-xs sm:text-sm">
@@ -178,48 +175,48 @@ export function Hero() {
                   <span className="text-primary">$</span>
                   <span>whoami</span>
                 </div>
-                <div className="text-secondary pl-4">vasu-jain</div>
+                <div className="text-secondary pl-4">vinay-yadav</div>
                 <div className="flex items-center space-x-2">
                   <span className="text-primary">$</span>
-                  <span>cat skills.txt</span>
+                  <span>bat skills.txt</span>
                 </div>
                 <div className="text-secondary pl-4 leading-relaxed">
-                  Languages: Java, Go, Python, TypeScript
+                  Languages: Java, Go, Python, Rust 
                   <br />
-                  Backend: Spring Boot, Express.js, FastAPI, Gin
+                  Backend: Spring Boot,  Fast API , Nodejs
                   <br />
-                  DevOps: Docker, K8s, AWS, GitHub Actions
+                  DevOps: Docker, K8s, AWS, GitHub Actions, Terraform , GitOps, Ansible
                   <br />
-                  AI: LangChain, LangGraph, RAG
+                  Databases: PostgreSQL, MongoDB, 
                   <br />
-                  Databases: PostgreSQL, MongoDB, Redis, Neo4j
-                  <br />
-                  Tools: Linux, Neovim, Zed, Git, Bruno
+                  Tools: Linux, Neovim, , Git, Docker
                 </div>
                 <div className="flex items-center space-x-2">
                   <span className="text-primary">$</span>
                   <span>ls projects/</span>
                 </div>
                 <div className="text-secondary pl-4 leading-relaxed">
-                  shelfwise/
+                  HollowDots/
                   <br />
-                  task-genie/
+                  keyarch/
+                  <br  />
+                  telecord/
                 </div>
               </div>
             </div>
 
             {/* Quick Links */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-6">
               <Link
-                href="/projects/shelfwise"
+                href="/projects/hollowdots"
                 className="flex items-center justify-between p-4 sm:p-6 bg-card border border-border rounded-xl hover:border-primary/50 transition-all duration-300 hover:shadow-lg group focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"
               >
                 <div>
                   <div className="font-semibold text-base sm:text-lg">
-                    ShelfWise
+                    HollowDots
                   </div>
                   <div className="text-xs sm:text-sm text-muted-foreground">
-                    Library System
+                    Dotfiles
                   </div>
                 </div>
                 <ArrowRight
@@ -228,15 +225,32 @@ export function Hero() {
                 />
               </Link>
               <Link
-                href="/projects/task-genie"
+                href="/projects/keyarch"
                 className="flex items-center justify-between p-4 sm:p-6 bg-card border border-border rounded-xl hover:border-primary/50 transition-all duration-300 hover:shadow-lg group focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"
               >
                 <div>
                   <div className="font-semibold text-base sm:text-lg">
-                    Task Genie
+                    Keyarch
                   </div>
                   <div className="text-xs sm:text-sm text-muted-foreground">
-                    AI Agent Bot
+                    CLI Typing Test
+                  </div>
+                </div>
+                <ArrowRight
+                  className="h-4 w-4 sm:h-5 sm:w-5 text-muted-foreground group-hover:text-primary group-hover:translate-x-1 transition-all"
+                  aria-hidden="true"
+                />
+              </Link>
+              <Link
+                href="/projects/telecord"
+                className="flex items-center justify-between p-4 sm:p-6 bg-card border border-border rounded-xl hover:border-primary/50 transition-all duration-300 hover:shadow-lg group focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"
+              >
+                <div>
+                  <div className="font-semibold text-base sm:text-lg">
+                    Telecord
+                  </div>
+                  <div className="text-xs sm:text-sm text-muted-foreground">
+                    Discord to Telegram
                   </div>
                 </div>
                 <ArrowRight
