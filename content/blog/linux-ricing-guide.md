@@ -258,41 +258,41 @@ cursor_blink_interval 0
 window_padding_width 10
 background_opacity 0.95
 
-# Rose Pine Theme
-foreground #e0def4
-background #191724
+# Soft Black & White Theme
+foreground #f5f5f5
+background #0a0a0a
 
 # Black
-color0 #26233a
-color8 #6e6a86
+color0 #0a0a0a
+color8 #404040
 
-# Red
-color1 #eb6f92
-color9 #eb6f92
+# Red (Gray)
+color1 #808080
+color9 #a0a0a0
 
-# Green
-color2 #31748f
-color10 #31748f
+# Green (Dark Gray)
+color2 #606060
+color10 #808080
 
-# Yellow
-color3 #f6c177
-color11 #f6c177
+# Yellow (Light Gray)
+color3 #c0c0c0
+color11 #e0e0e0
 
-# Blue
-color4 #9ccfd8
-color12 #9ccfd8
+# Blue (Medium Gray)
+color4 #a0a0a0
+color12 #c0c0c0
 
-# Magenta
-color5 #c4a7e7
-color13 #c4a7e7
+# Magenta (White)
+color5 #e0e0e0
+color13 #f5f5f5
 
-# Cyan
-color6 #ebbcba
-color14 #ebbcba
+# Cyan (Light)
+color6 #b0b0b0
+color14 #d0d0d0
 
 # White
-color7 #e0def4
-color15 #e0def4
+color7 #f5f5f5
+color15 #ffffff
 ```
 
 ---
@@ -359,23 +359,23 @@ color15 #e0def4
 }
 
 window#waybar {
-    background: rgba(25, 23, 36, 0.95);
-    color: #e0def4;
-    border-bottom: 2px solid #31748f;
+    background: rgba(10, 10, 10, 0.95);
+    color: #f5f5f5;
+    border-bottom: 2px solid #404040;
 }
 
 #workspaces button {
     padding: 0 10px;
-    color: #6e6a86;
+    color: #808080;
 }
 
 #workspaces button.active {
-    color: #9ccfd8;
-    background: rgba(156, 207, 216, 0.2);
+    color: #ffffff;
+    background: rgba(255, 255, 255, 0.15);
 }
 
 #clock {
-    color: #c4a7e7;
+    color: #e0e0e0;
     padding: 0 15px;
 }
 
@@ -401,9 +401,9 @@ configuration {
 }
 
 * {
-    bg: #191724;
-    fg: #e0def4;
-    accent: #9ccfd8;
+    bg: #0a0a0a;
+    fg: #f5f5f5;
+    accent: #ffffff;
     background-color: @bg;
     text-color: @fg;
 }
@@ -428,7 +428,8 @@ element selected {
 
 ### Popular Palettes
 
-- **Rose Pine**: Soft, warm, easy on eyes
+- **Monochrome**: Pure black & white, timeless, professional
+- **Soft Black & White**: Easy on eyes, modern minimalism
 - **Catppuccin**: Pastel, modern, trendy
 - **Dracula**: Bold, high contrast
 - **Gruvbox**: Retro, comfortable
@@ -591,7 +592,7 @@ Create a README for your dotfiles:
 - **WM**: Hyprland
 - **Bar**: Waybar
 - **Terminal**: Kitty
-- **Theme**: Rose Pine
+- **Theme**: Soft Black & White
 
 ## Installation
 git clone https://github.com/yourusername/dotfiles

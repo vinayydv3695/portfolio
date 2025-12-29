@@ -45,73 +45,73 @@
 
 :root {
   --radius: 0.625rem;
-  /* Rose Pine Light Theme */
-  --background: #faf4ed;
-  --foreground: #575279;
-  --card: #fffaf3;
-  --card-foreground: #575279;
-  --popover: #fffaf3;
-  --popover-foreground: #575279;
-  --primary: #eb6f92;
-  --primary-foreground: #faf4ed;
-  --secondary: #9ccfd8;
-  --secondary-foreground: #575279;
-  --muted: #f2e9e1;
-  --muted-foreground: #9893a5;
-  --accent: #f6c177;
-  --accent-foreground: #575279;
-  --destructive: #eb6f92;
-  --border: #f2e9e1;
-  --input: #f2e9e1;
-  --ring: #eb6f92;
-  --chart-1: #eb6f92;
-  --chart-2: #9ccfd8;
-  --chart-3: #f6c177;
-  --chart-4: #31748f;
-  --chart-5: #c4a7e7;
-  --sidebar: #faf4ed;
-  --sidebar-foreground: #575279;
-  --sidebar-primary: #eb6f92;
-  --sidebar-primary-foreground: #faf4ed;
-  --sidebar-accent: #f2e9e1;
-  --sidebar-accent-foreground: #575279;
-  --sidebar-border: #f2e9e1;
-  --sidebar-ring: #eb6f92;
+  /* Soft Black & White Light Theme */
+  --background: #ffffff;
+  --foreground: #0a0a0a;
+  --card: #f5f5f5;
+  --card-foreground: #0a0a0a;
+  --popover: #f5f5f5;
+  --popover-foreground: #0a0a0a;
+  --primary: #1a1a1a;
+  --primary-foreground: #ffffff;
+  --secondary: #404040;
+  --secondary-foreground: #ffffff;
+  --muted: #e0e0e0;
+  --muted-foreground: #808080;
+  --accent: #2a2a2a;
+  --accent-foreground: #ffffff;
+  --destructive: #404040;
+  --border: #e0e0e0;
+  --input: #e0e0e0;
+  --ring: #1a1a1a;
+  --chart-1: #1a1a1a;
+  --chart-2: #404040;
+  --chart-3: #606060;
+  --chart-4: #808080;
+  --chart-5: #a0a0a0;
+  --sidebar: #ffffff;
+  --sidebar-foreground: #0a0a0a;
+  --sidebar-primary: #1a1a1a;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: #e0e0e0;
+  --sidebar-accent-foreground: #0a0a0a;
+  --sidebar-border: #e0e0e0;
+  --sidebar-ring: #1a1a1a;
 }
 
 .dark {
-  /* Rose Pine Dark Theme */
-  --background: #191724;
-  --foreground: #e0def4;
-  --card: #1f1d2e;
-  --card-foreground: #e0def4;
-  --popover: #1f1d2e;
-  --popover-foreground: #e0def4;
-  --primary: #eb6f92;
-  --primary-foreground: #191724;
-  --secondary: #9ccfd8;
-  --secondary-foreground: #191724;
-  --muted: #26233a;
-  --muted-foreground: #6e6a86;
-  --accent: #f6c177;
-  --accent-foreground: #191724;
-  --destructive: #eb6f92;
-  --border: #26233a;
-  --input: #26233a;
-  --ring: #eb6f92;
-  --chart-1: #eb6f92;
-  --chart-2: #9ccfd8;
-  --chart-3: #f6c177;
-  --chart-4: #31748f;
-  --chart-5: #c4a7e7;
-  --sidebar: #1f1d2e;
-  --sidebar-foreground: #e0def4;
-  --sidebar-primary: #eb6f92;
-  --sidebar-primary-foreground: #191724;
-  --sidebar-accent: #26233a;
-  --sidebar-accent-foreground: #e0def4;
-  --sidebar-border: #26233a;
-  --sidebar-ring: #eb6f92;
+  /* Soft Black & White Dark Theme */
+  --background: #0a0a0a;
+  --foreground: #f5f5f5;
+  --card: #1a1a1a;
+  --card-foreground: #f5f5f5;
+  --popover: #1a1a1a;
+  --popover-foreground: #f5f5f5;
+  --primary: #ffffff;
+  --primary-foreground: #0a0a0a;
+  --secondary: #e0e0e0;
+  --secondary-foreground: #0a0a0a;
+  --muted: #2a2a2a;
+  --muted-foreground: #808080;
+  --accent: #f5f5f5;
+  --accent-foreground: #0a0a0a;
+  --destructive: #e0e0e0;
+  --border: #2a2a2a;
+  --input: #2a2a2a;
+  --ring: #ffffff;
+  --chart-1: #ffffff;
+  --chart-2: #e0e0e0;
+  --chart-3: #c0c0c0;
+  --chart-4: #a0a0a0;
+  --chart-5: #808080;
+  --sidebar: #1a1a1a;
+  --sidebar-foreground: #f5f5f5;
+  --sidebar-primary: #ffffff;
+  --sidebar-primary-foreground: #0a0a0a;
+  --sidebar-accent: #2a2a2a;
+  --sidebar-accent-foreground: #f5f5f5;
+  --sidebar-border: #2a2a2a;
+  --sidebar-ring: #ffffff;
 }
 
 @layer base {
@@ -155,12 +155,12 @@
   }
 }
 
-/* Syntax highlighting styles - Rose Pine theme */
+/* Syntax highlighting styles - Soft Black & White theme */
 
 /* Light mode (default) */
 .hljs {
-  background: #f2e9e1 !important;
-  color: #575279 !important;
+  background: #f5f5f5 !important;
+  color: #0a0a0a !important;
 }
 
 .hljs-keyword,
@@ -168,7 +168,8 @@
 .hljs-built_in,
 .hljs-name,
 .hljs-tag {
-  color: #b4637a !important; /* Rose - light mode */
+  color: #1a1a1a !important;
+  font-weight: 600;
 }
 
 .hljs-string,
@@ -179,25 +180,27 @@
 .hljs-template-tag,
 .hljs-template-variable,
 .hljs-type {
-  color: #ea9d34 !important; /* Gold - light mode */
+  color: #404040 !important;
 }
 
 .hljs-comment,
 .hljs-quote,
 .hljs-deletion {
-  color: #9893a5 !important; /* Muted - light mode */
+  color: #808080 !important;
+  font-style: italic;
 }
 
 .hljs-number,
 .hljs-regexp,
 .hljs-selector-attr,
 .hljs-selector-pseudo {
-  color: #d7827e !important; /* Rose lighter - light mode */
+  color: #2a2a2a !important;
 }
 
 .hljs-function,
 .hljs-selector-id {
-  color: #56949f !important; /* Foam - light mode */
+  color: #0a0a0a !important;
+  font-weight: 600;
 }
 
 .hljs-variable,
@@ -207,11 +210,11 @@
 .hljs-link,
 .hljs-meta,
 .hljs-selector-class {
-  color: #907aa9 !important; /* Iris - light mode */
+  color: #404040 !important;
 }
 
 .hljs-addition {
-  color: #56949f !important; /* Foam - light mode */
+  color: #1a1a1a !important;
 }
 
 .hljs-emphasis {
@@ -224,8 +227,8 @@
 
 /* Dark mode */
 .dark .hljs {
-  background: #26233a !important;
-  color: #e0def4 !important;
+  background: #1a1a1a !important;
+  color: #f5f5f5 !important;
 }
 
 .dark .hljs-keyword,
@@ -233,7 +236,8 @@
 .dark .hljs-built_in,
 .dark .hljs-name,
 .dark .hljs-tag {
-  color: #eb6f92 !important; /* Rose - dark mode */
+  color: #ffffff !important;
+  font-weight: 600;
 }
 
 .dark .hljs-string,
@@ -244,25 +248,27 @@
 .dark .hljs-template-tag,
 .dark .hljs-template-variable,
 .dark .hljs-type {
-  color: #f6c177 !important; /* Gold - dark mode */
+  color: #e0e0e0 !important;
 }
 
 .dark .hljs-comment,
 .dark .hljs-quote,
 .dark .hljs-deletion {
-  color: #6e6a86 !important; /* Muted - dark mode */
+  color: #808080 !important;
+  font-style: italic;
 }
 
 .dark .hljs-number,
 .dark .hljs-regexp,
 .dark .hljs-selector-attr,
 .dark .hljs-selector-pseudo {
-  color: #ebbcba !important; /* Rose lighter - dark mode */
+  color: #c0c0c0 !important;
 }
 
 .dark .hljs-function,
 .dark .hljs-selector-id {
-  color: #9ccfd8 !important; /* Foam - dark mode */
+  color: #f5f5f5 !important;
+  font-weight: 600;
 }
 
 .dark .hljs-variable,
@@ -272,9 +278,9 @@
 .dark .hljs-link,
 .dark .hljs-meta,
 .dark .hljs-selector-class {
-  color: #c4a7e7 !important; /* Iris - dark mode */
+  color: #e0e0e0 !important;
 }
 
 .dark .hljs-addition {
-  color: #9ccfd8 !important; /* Foam - dark mode */
+  color: #ffffff !important;
 }
