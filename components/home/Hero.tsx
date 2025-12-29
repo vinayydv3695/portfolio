@@ -88,7 +88,7 @@ export function Hero() {
               </div>
 
               <p className="text-lg lg:text-xl text-muted-foreground max-w-2xl leading-relaxed">
-                Master DevOps and Full-Stack Engineer with expertise in cloud platforms (AWS, GCP), Linux, and modern CI/CD pipelines using Jenkins, GitLab CI, and GitHub Actions. Skilled in building  full-stack applications, containerizing services with Docker, orchestrating with Kubernetes, and managing infrastructure using Terraform, Ansible, and GitOps practices..
+                Master DevOps and Full-Stack Engineer with expertise in cloud platforms (AWS, GCP), Linux, and modern CI/CD pipelines using Jenkins, GitLab CI, and GitHub Actions. Skilled in building  full-stack applications, containerizing services with Docker, orchestrating with Kubernetes, and managing infrastructure using Terraform, Ansible, and GitOps practices.
               </p>
             </div>
 
