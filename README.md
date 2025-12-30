@@ -1,4 +1,4 @@
-# Vasu Jain - Backend Developer Portfolio
+# Vinay yadav - Backend Developer Portfolio
 
 A beautiful, professional portfolio website showcasing backend development, DevOps expertise, and AI applications. Built with Next.js, TypeScript, Tailwind CSS, and shadcn/ui components.
 
@@ -224,7 +224,7 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
-**Built with ❤️ by Vasu Jain**
+**Built with ❤️ by Vinay yadav**
 
 Connect with me:
 - [GitHub](https://github.com/vasujain275)
